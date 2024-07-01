@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Recursive', sans-serif;
+}
+
+.main {
+    max-width: 550px;
+    width: 90%;
+    margin: 11px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 248, 219);
+}
+
+.back {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 199, 237);
+}
+
+.search {
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    border-radius: 1.2rem;
+    margin-right: 10px;
+}
+
+.header {
+    background-color: rgb(125, 138, 188);
+    color: rgb(247, 243, 243);
+    padding: 15px;
+    width: 100%;
+    max-width: 19rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.day, .date, .temp, .desc, .sunrise-sunset, .humid {
+    color: rgb(48, 68, 99);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        max-width: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .main {
+        max-width: 50%;
+    }
+    
+}
